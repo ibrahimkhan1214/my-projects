@@ -1,0 +1,95 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+margin: 0;
+padding: 0;
+font-family: inherit;
+}
+.img{
+  height: 100vh;
+  background-image: url(QHbackground.jpg);
+  background-size: cover;
+  filter: blur(10px);
+}
+
+.login_box{
+ 
+  height: 100px;
+  width: 350px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%,-50%);
+  color: black;
+  font-size: 25px;
+}
+h1{
+  
+  transform: translate(10%);
+  border-left: 10px solid #5f6360;
+  font-size: 50px;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  font-weight: bolder;
+  color: grey;
+  
+}
+
+.textbox i{
+  width: 10%;
+  float: left;
+  text-align: center;
+  overflow: hidden;
+  font-size: 30px;
+  padding: 4px;
+  background-color: black;
+opacity: 0.5;
+filter: alpha(opacity=50);
+font-weight: bolder;
+
+}
+
+.textbox input{
+  color:black;
+  width: 100%;
+  font-size: 25px;
+  text-align: center;
+  float: left;
+  margin: 10px;
+  border: none;
+  outline: none;
+  background: none;
+  font-weight: bolder;
+
+  
+}
+::-webkit-input-placeholder{
+color: black;
+}
+.login-button{
+transform: translate(10%);
+text-align: center;
+width: 100%;
+border: none;
+outline: none;
+background: none;
+font-size: 30px;
+color: white;
+font-weight: bolder;
+background-color: black;
+opacity: 0.5;
+filter: alpha(opacity=50);
+}
+
